@@ -1,0 +1,29 @@
+{
+	"name": "array-buffer-byte-length",
+	"version": "0.0.0",
+	"description": "Get the byte length of an ArrayBuffer, even in engines without a `.byteLength` method.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"shim",
+		"polyfill",
+		"ArrayBuffer",
+		"byteLength",
+		"byte",
+		"length",
+		"es-shim API",
+		"es-shims"
+	],
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/inspect-js/array-buffer-byte-length.git"
+	},
+	"bugs": {
+		"url": "https://github.com/inspect-js/array-buffer-byte-length/issues"
+	},
+	"homepage": "https://github.com/inspect-js/array-buffer-byte-length#readme"
+}
