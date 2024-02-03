@@ -1,6 +1,6 @@
 {
 	"name": "array-buffer-byte-length",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Get the byte length of an ArrayBuffer, even in engines without a `.byteLength` method.",
 	"main": "index.js",
 	"exports": {
