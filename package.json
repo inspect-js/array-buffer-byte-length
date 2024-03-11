@@ -47,7 +47,7 @@
 	},
 	"homepage": "https://github.com/inspect-js/array-buffer-byte-length#readme",
 	"dependencies": {
-		"call-bind": "^1.0.5",
+		"call-bind": "^1.0.7",
 		"is-array-buffer": "^3.0.4"
 	},
 	"devDependencies": {
