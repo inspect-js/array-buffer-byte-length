@@ -47,8 +47,8 @@
 	},
 	"homepage": "https://github.com/inspect-js/array-buffer-byte-length#readme",
 	"dependencies": {
-		"call-bind": "^1.0.7",
-		"is-array-buffer": "^3.0.4"
+		"call-bind": "^1.0.8",
+		"is-array-buffer": "^3.0.5"
 	},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^21.1.1",
