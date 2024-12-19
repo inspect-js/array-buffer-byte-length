@@ -16,7 +16,7 @@
 		"pretest": "npm run lint",
 		"prelint": "evalmd README.md",
 		"lint": "eslint --ext=js,mjs .",
-		"postlint": "tsc -p .",
+		"postlint": "tsc && attw -P",
 		"tests-only": "nyc tape 'test/**/*.js'",
 		"test": "npm run tests-only",
 		"posttest": "npx npm@'>= 10.2' audit --production",
@@ -51,6 +51,7 @@
 		"is-array-buffer": "^3.0.5"
 	},
 	"devDependencies": {
+		"@arethetypeswrong/cli": "^0.17.1",
 		"@ljharb/eslint-config": "^21.1.1",
 		"@ljharb/tsconfig": "^0.2.2",
 		"@types/es-value-fixtures": "^1.4.4",
