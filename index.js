@@ -1,6 +1,7 @@
 'use strict';
 
 var callBound = require('call-bound');
+/** @type {undefined | ((ab: ArrayBuffer) => number)} */
 var $byteLength = callBound('ArrayBuffer.prototype.byteLength', true);
 
 var isArrayBuffer = require('is-array-buffer');
